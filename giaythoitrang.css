@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1903px;
+}
+body{
+    font-family: "Lato", sans-serif;
+    width: 1903px;
+}
+
+.phan1{
+    height: 47px;
+    background-color: white;
+    width: 1903px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 14px;
+    padding:14px 24px;
+    float:left;
+    color: rgb(0, 0, 0);
+}
+.nav-item:hover{
+    cursor: pointer;
+}
+.nav-menu{
+    float: right;
+    margin-right: 630px;
+    width:675px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}  
+.nav-item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2.5px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.nav-item:hover:after {
+    width: 100%;
+    background: black;
+}
+.dropdown-content{
+    font-size: 15px;
+    display:none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    display: block;
+    color: rgb(182, 179, 179);
+}
+.dropdown-content a:hover{
+    transition: background-color 0.5s ease-out,
+    letter-spacing 1s ease-in;
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    left: 52.1%;
+    top: 45.5px;
+}
+.dropdownbutton{
+    background-color: white;
+    color: black;
+    border: none ;
+}
+.anh{
+    margin-left: 10px;
+    width: 86px;
+    float: left;
+    
+}
+
+
+.phan2{
+    margin-top: auto;
+    background-color:rgb(236, 232, 232) ;
+    text-align: center;
+    height:400px
+}
+.tieude1{
+    font-size:60px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    padding: 23px 679px;
+    padding-top: 129px;
+}
+.trangchu{
+    color: rgb(155, 155, 155);
+    padding-bottom: 0px;
+}
+.trangchu:hover{
+    color: red;
+}
+.nd{
+    font-size: 15px;
+}
+
+
+
+.phan3demuc{
+    float: left;
+    height: 1041px;
+    width: 400px;
+}
+.tieude2{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.demuc{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.demuccon{
+    font-size: 14px;
+    display: block;
+    padding:8px 16px;
+    color: rgb(182, 179, 179); 
+    transition:  
+    color 0.15s ease-out,
+    letter-spacing 0.15s ease-in;
+}
+.demuccon:hover{
+    color: black;
+}
+
+
+.phan3phanloai{
+    float: left;
+    height: 100px;
+    width: 1503px;
+}
+#sapxep{
+    text-align: left;
+    color: rgb(182, 179, 179); 
+    font-size: 18px;
+    margin-top: 63px;
+    border: none;
+    outline: none;
+}
+#sapxep:hover{
+    color: black;
+    transition:
+    color 0.15s ease-out,
+    letter-spacing 0.15s ease-in;
+}
+.ke{
+    margin-right:17px;
+    margin-top: 32px;
+    height: 60px;
+    border-left-style:solid  ;
+    border-left-width: 1px ;
+    border-left-color: rgb(182, 179, 179);  
+    float:right;
+}
+.n2{
+    float: right;
+    font-size: 15px;
+    margin-top: 65px;
+    margin-right: 1096px;
+}
+.ke1{
+    margin-top: 5px;
+    width: 1489px;
+    border-bottom-style:solid  ;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(182, 179, 179);  
+    float:left
+}
+
+.phan3noidung{
+    float: left;
+    margin-top: 30px;
+    height: 905px;
+    width: 1503px;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+   
+}
+.g1{
+    padding-right: 26px ;
+    flex: 1 1 21%; 
+    background-color: white;
+    width: 254px;
+    height: 400px;
+}
+.anh1{
+    height: 275px;
+    width: 350px;
+}
+.gia{ 
+    font-family: "Lato", sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.noidung3{
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ke2{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 1800px;
+    border-bottom-style:solid  ;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(182, 179, 179);  
+    float:left
+}
+
+
+.phan4{
+    font-size: 13px;
+    margin-top: 35px;
+    height: 400px;
+    width: 1903px;
+    float: left;
+}
+.anh2{
+    height: 200px;
+    width: 300px;
+}
+span{
+    padding-left: 15px;
+    color: black;
+}
+h5{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.tdcuoi{
+    font-size: 14px;
+}
+.dong1{
+    color: #999;
+    margin-top: 10px;
+}
+.dong2{
+    color: #999;
+    margin-top: 40px;
+    
+}
+.q1{
+    padding-left: 370px;
+    float: left;
+}
+.q2{
+    width: 135px;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 15px;
+    float: left;
+}
+.q3{
+    margin-left: 70px;
+    margin-top: 15px;
+    float: left;
+}
+.q4{
+    margin-left: 70px;
+    margin-top: 15px;
+    float: left;
+}
